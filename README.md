@@ -1,63 +1,69 @@
-# Customer Segmentation Using RFM and Machine Learning
+# 🧠 RFM Customer Segmentation with KMeans & Random Forest
 
-This project performs customer segmentation using the RFM (Recency, Frequency, Monetary) model combined with KMeans clustering and Random Forest classification.
-
-## 📊 Dataset
-
-- Sample: Superstore (Kaggle dataset)
-- Format: `.csv`
-- Contains transactional sales data with fields like `Order Date`, `Customer ID`, `Sales`, `Region`, etc.
-
-## 📈 Workflow
-
-### 1. Data Preprocessing
-- Load dataset and parse dates
-- Handle missing values and duplicates (if any)
-
-### 2. RFM Feature Engineering
-- Recency: Days since last purchase
-- Frequency: Total number of purchases
-- Monetary: Total purchase amount
-
-### 3. RFM Scoring
-- Quartile-based scoring (1 to 4) for each metric
-- Generate combined `RFM_Score`
-
-### 4. Segmentation & Visualization
-- Visualize RFM distributions
-- Identify VIP and low-value customers
-- Heatmap of RFM segments
-
-### 5. Clustering with KMeans
-- Elbow method to determine optimal k
-- Segment customers into 4 groups
-- Visualize clusters (Recency vs Monetary)
-
-### 6. Classification with Random Forest
-- Train a model to predict cluster labels from RFM values
-- Evaluate performance using classification metrics
-
-## 🔍 Key Visuals
-- Monthly Sales Trend
-- Region-wise Sales Bar Chart
-- RFM Distribution Histograms
-- KMeans Clusters (Scatterplot)
-- Segment Heatmap
-
-## 💡 Tools & Libraries
-- Python (Pandas, Matplotlib, Seaborn, Scikit-learn)
-- Jupyter Notebook
-- Dataset source: Kaggle
-
-## 🚀 Author
-Hosna HDY  
-[Your GitHub or LinkedIn Link]
+This project performs **customer segmentation** using the RFM (Recency, Frequency, Monetary) model combined with **KMeans clustering** and **Random Forest classification**. The entire analysis is implemented in **Google Colab** using a retail sales dataset.
 
 ---
 
-### 📁 Files
-- `rfm_customer_segmentation.ipynb`: Jupyter notebook with full workflow
-- `Sample - Superstore.csv`: Dataset used (optional to upload if allowed)
+## 📌 Overview
+
+- 🔍 Extract RFM features from transactional data
+- 📊 Score and classify customers (e.g., VIPs, dormant)
+- 🤖 Cluster using KMeans (Elbow method for optimal `k`)
+- 🧠 Predict segments with Random Forest classifier
+- 📈 Visualize monthly trends and customer patterns
 
 ---
 
+## 🗂️ Dataset
+
+- Source: Simulated Superstore dataset
+- Fields: `Order Date`, `Customer ID`, `Sales`, `Region`, etc.
+- Format: CSV (`Sample - Superstore.csv`)
+
+---
+
+## 🔧 Tools & Libraries
+
+- **Python**: `pandas`, `matplotlib`, `seaborn`, `scikit-learn`
+- **Google Colab**: Used as development environment
+- **Jupyter Notebook**: Output saved as `.ipynb`
+
+---
+
+## 🚀 Execution (via Colab)
+
+To run this project in Google Colab:
+
+1. Open [Google Colab](https://colab.research.google.com/)
+2. Upload the notebook: `rfm_customer_segmentation.ipynb`
+3. Upload the dataset: `Sample - Superstore.csv`
+4. Run all cells sequentially
+
+---
+
+## 📊 Key Visuals
+
+- Monthly Sales Trend (Line Plot)
+- Regional Sales Breakdown (Bar Chart)
+- RFM Segment Heatmap (Recency × Frequency)
+- KMeans Clustering Scatterplots
+- Random Forest Classification Report
+
+---
+
+## 👩‍💻 Author
+
+**Parmida Mohammadzadeh**
+
+---
+
+## 📁 Files
+
+- `rfm_customer_segmentation.ipynb`: Complete Colab notebook
+- `Sample - Superstore.csv`: Dataset (optional if licensed)
+
+---
+
+## 📜 License
+
+Shared under the MIT License.
