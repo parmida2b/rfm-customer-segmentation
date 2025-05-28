@@ -34,7 +34,7 @@ This project performs **customer segmentation** using the RFM (Recency, Frequenc
 
 To run this project in Google Colab:
 
-1. Open [Google Colab](https://colab.research.google.com/)
+1. Open [Google Colab](https://colab.research.google.com/drive/1Wl1z6Jn955pCxFmR5YrmQhQqZNC2zgU6?usp=drive_link)
 2. Upload the notebook: `rfm_customer_segmentation.ipynb`
 3. Upload the dataset: `Sample - Superstore.csv`
 4. Run all cells sequentially
@@ -57,13 +57,3 @@ To run this project in Google Colab:
 
 ---
 
-## 📁 Files
-
-- `rfm_customer_segmentation.ipynb`: Complete Colab notebook
-- `Sample - Superstore.csv`: Dataset (optional if licensed)
-
----
-
-## 📜 License
-
-Shared under the MIT License.
