@@ -53,7 +53,7 @@ To run this project in Google Colab:
 
 ## 👩‍💻 Author
 
-**Parmida Mohammadzadeh**
+**Parmida Mohammadzadehsarab**
 
 ---
 
